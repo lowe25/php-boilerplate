@@ -1,0 +1,47 @@
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+storage/logs/
+*.log
+
+# =========================
+# Editor / OS
+# =========================
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary / Backup Files
+# =========================
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# PHP / Composer
+# =========================
+vendor/
+composer.lock
+
+# =========================
+# Optional: local uploads (if any)
+# =========================
+storage/uploads/

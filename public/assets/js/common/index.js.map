@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../resources/ts/common/components/test.ts", "../../../../resources/ts/common/index.ts"],
+  "sourcesContent": ["const test = () => {\r\n  console.log(\"HELLO WORLD FROM COMMON COMPONENTS FOLDER\");\r\n};\r\n\r\nexport default test;\r\n", "import test from \"./components/test\";\r\ndocument.addEventListener(\"DOMContentLoaded\", () => {\r\n  test();\r\n});\r\n"],
+  "mappings": ";;;AAAA,MAAM,OAAO,MAAM;AACjB,YAAQ,IAAI,2CAA2C;AAAA,EACzD;AAEA,MAAO,eAAQ;;;ACHf,WAAS,iBAAiB,oBAAoB,MAAM;AAClD,iBAAK;AAAA,EACP,CAAC;",
+  "names": []
+}

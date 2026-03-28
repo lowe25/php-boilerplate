@@ -1,0 +1,17 @@
+{
+  "name": "php-boilerplate",
+  "version": "1.0.0",
+ "scripts": {
+  "dev": "concurrently \"npx tailwindcss -i ./resources/css/main.css -o ./public/assets/css/main.css --watch\" \"node esbuild.config.js\" \"npm run serve\"",
+  "serve": "browser-sync start --proxy \"localhost/php-boilerplate/public\" --files \"public/assets/js/**/*.js, public/assets/css/*.css, app/views/**/*.twig\" --no-notify"
+},
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^8.2.0",
+    "esbuild": "^0.27.4",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3"
+  }
+}

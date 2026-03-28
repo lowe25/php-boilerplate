@@ -1,0 +1,16 @@
+{% extends "layouts/main.twig" %}
+
+{% block content %}
+	<div class="h-screen bg-black flex items-center justify-center">
+		<div class="text-center">
+			<h1 class="text-3xl text-[#1f46b3] font-bold">
+				PHP MVC Boilerplate powered by
+			</h1>
+			<p class="text-white text-[60px]">Twig + TailwindCSS + TypeScript</p>
+		</div>
+	</div>
+{% endblock %}
+
+{% block scripts %}
+	<script src="{{ base_url('assets/js/pages/index.js') }}"></script>
+{% endblock %}
