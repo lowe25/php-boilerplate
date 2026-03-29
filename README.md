@@ -22,9 +22,13 @@ git clone https://github.com/your-username/php-boilerplate.git
 cd php-boilerplate
 ```
 
-## Installation
+## Installation For Tailwind / TypeScript
 
 - npm install
+
+## Installation For Twig
+
+- composer install
 
 ## Start the development server
 
