@@ -26,13 +26,13 @@ cd php-boilerplate
 
 - npm install
 
-## Start the development server
-
-- npm run dev
-
 ## Installation For Twig
 
 - composer install
+
+## Start the development server
+
+- npm run dev
 
 ## Note
 
